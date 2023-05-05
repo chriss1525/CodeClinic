@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Christine Okoth
-theme: gaia
+theme: uncover
 ---
 
 # Lets Learn about Pointers!!
