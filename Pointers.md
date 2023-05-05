@@ -4,13 +4,15 @@
 
 a pointer is a variable that stores the memory address of another variable.
 
-When you create a variable in C, it is assigned a memory address in your computer's memory. This memory address is a unique identifier for that variable. eg;
+When you create a variable in C, it is assigned a memory address in your computer's memory. This memory address is a unique identifier for that variable. 
+
+Lets break that down;
 
 ```perl
 int x = 5;
 ```
 
-in this example, you have defined a variable x and given it a value. To acces the value, you simple use the variable name. Like this;
+Here, you have defined a variable x and given it a value. To acces the value, you simple use the variable name. Like this;
 
 ```perl
 printf("%d", x);
@@ -74,14 +76,14 @@ printf("%c", *ptr);
 In this example, the printf statement uses the dereference operator \* to access the value stored at the memory location pointed to by "ptr", which is the first character of the string.
 
 ```C
-/_Modify the second character of the string using the pointer_/
-\*(ptr + 1) = 'a';
+/*Modify the second character of the string using the pointer*/
+(ptr + 1) = 'a';
 ```
 
 This second statement modifies the second character of the string using pointer arithmetic. The expression "ptr + 1" calculates the memory address of the second character of the string (i.e., the 'e' in "Hello"), and the dereference operator \* is used to access the value stored at that memory location. By assigning the value 'a' to this location, we modify the second character of the string to be "Hallo".
 
 ```C
-/_Print the modified string using the original variable_/
+/*Print the modified string using the original variable*/
 printf("%s", str);
 ```
 
