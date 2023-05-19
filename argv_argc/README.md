@@ -6,6 +6,8 @@ theme: uncover
 
 # Command Line Arguments in C: `argv` and `argc`
 
+![Commandline arguments](https://th.bing.com/th/id/R.b83ad753fb3aedbd2ee84a0b2d29d9f2?rik=svvMunBTLK31Tw&riu=http%3a%2f%2fimage.slidesharecdn.com%2fc101-150522163735-lva1-app6891%2f95%2fc101-intro-to-programming-with-c-37-638.jpg%3fcb%3d1432313009&ehk=xLneXu76LlsM%2fBWiubchYtpRTl5OQsMTT5Z3lS7TvX8%3d&risl=&pid=ImgRaw&r=0)
+
 ---
 
 ## Understanding `argv` and `argc`
@@ -72,7 +74,7 @@ If the correct number of arguments is provided, the program assigns the values t
 
 # Conclusion
 
-- Command line arguments (argv and argc) in C provide a convenient way to pass data and customize the behavior of a program from the command line. 
+- Command line arguments (argv and argc) in C provide a convenient way to pass data and customize the behavior of a program from the command line.
 - By understanding how to use them, you can create more flexible and interactive programs.
 
 ---

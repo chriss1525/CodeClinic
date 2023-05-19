@@ -6,6 +6,10 @@ theme: uncover
 
 ## Recursion
 
+![Recursion](https://pencilprogrammer.com/wp-content/uploads/2018/11/Recursion-in-C-min.png)
+
+---
+
 ### What is Recursion?
 
 Recursion is a programming concept where a function calls itself to solve a problem. It breaks down a problem into smaller, similar subproblems until a base case is reached.

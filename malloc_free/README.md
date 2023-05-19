@@ -6,6 +6,8 @@ theme: uncover
 
 # Dynamic Memory Allocation in C: `malloc` and `free`
 
+![Malloc](https://codewindow.in/wp-content/uploads/2021/04/malloc.png)
+
 ---
 
 ## Understanding Memory Allocation
